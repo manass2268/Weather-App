@@ -1,7 +1,7 @@
 import requests
 
 def get_weather(city):
-    base_url = "https://ms-tech.stoplight.io/mocks/ms-tech/weather-app/111233/weather"
+    base_url = "https://ms-tech.stoplight.io/mocks/ms-tech/weather-app/111233/weather" #change init on your way
     params = {
         "city": city
     }
